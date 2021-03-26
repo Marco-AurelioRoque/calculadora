@@ -12,25 +12,25 @@ var operacao = prompt("Digite 1 para fazer uma divisão, 2 para multiplicação,
 if (operacao == 1) {
 
     var resultado = primeiroValor / segundoValor
-    document.write("<p>" + primeiroValor + " / " + segundoValor + " = " + resultado + "</p")
+    document.write("<h2>" + primeiroValor + " / " + segundoValor + " = " + resultado + "</h2")
 
 } else if (operacao == 2){
 
     var resultado = primeiroValor * segundoValor
-    document.write("<p>" + primeiroValor + " x " + segundoValor + " = " + resultado + "</p")
+    document.write("<h2>" + primeiroValor + " x " + segundoValor + " = " + resultado + "</h2")
 
 } else if (operacao == 3){
 
     var resultado = primeiroValor + segundoValor
-    document.write("<p>" + primeiroValor + " + " + segundoValor + " = " + resultado + "</p")
+    document.write("<h2>" + primeiroValor + " + " + segundoValor + " = " + resultado + "</h2")
 
 } else if (operacao == 4){
 
     var resultado = primeiroValor - segundoValor
-    document.write("<p>" + primeiroValor + " - " + segundoValor + " = " + resultado + "</p>")
+    document.write("<h2>" + primeiroValor + " - " + segundoValor + " = " + resultado + "</h2>")
 
 } else {
-    document.write("<p>Opção invalida.</p>")
+    document.write("<h2>Opção invalida.</h2>")
 }
 
 

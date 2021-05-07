@@ -9,20 +9,28 @@
 </head>
 <body>
    
-    <div class="container">
-        <h1 class="page-title">
-            Calculadora
-        </h1>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-calculadora.svg" class="page-logo"
-            alt="">
+    <div class="calculadora-wrapper">
+        <div class="visor">
+            <input type="number" name="visorRes" class="visorResultado">
+        </div>
         <div class="calculadora">
+            <button class="numero1-calculadora" onclick="numero1()">1</button>
+            <button class="numero" onclick="numero2()">2</button>
+            <button class="numero" onclick="numero3()">3</button>
+            <button class="numero" onclick="numero4()">4</button>
+            <button class="numero" onclick="numero5()">5</button>
+            <button class="numero" onclick="numero6()">6</button>
+            <button class="numero" onclick="numero7()">7</button>
+            <button class="numero" onclick="numero8()">8</button>
+            <button class="numero" onclick="numero9()">9</button>
+            <button class="numero" onclick="numero0()">0</button>
+            <button class="sinais-mais" onclick="numeroMais()">+</button>
+            <button class="sinais-menos" onclick="numeroMenos()">-</button>
+            <button class="sinais-vezes" onclick="numeroVezes()">x</button>
+            <button class="sinais-divido" onclick="numeroDivisao()">/</button>
+            <button class="sinais-igual" onclick="numeroSoma()">=</button>
         </div>
     </div>
-    <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-    </a>
-    <h2></h2>
-
 
     <script src="script.js"></script>
 </body>

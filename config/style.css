@@ -20,6 +20,9 @@ body{
   margin-top: 10px;
   background-color: white;
 }
+.tiraResultadoVisor{
+  font-size: 0;
+}
 
 .calculadora-wrapper{
   padding: 5px;

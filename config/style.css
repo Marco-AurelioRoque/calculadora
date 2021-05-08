@@ -1,51 +1,49 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-  background-color: aqua;
+.fundo{
+  background-image: linear-gradient(45deg,black,blue);
+  height: 100vh;
+  color: white;
+  text-align: center;
 }
 
-.visorResultado{
-  font-size: 25px;
-  width: 330px;
+.calculadora{
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.botao{
+  width: 50px;
   height: 50px;
-  border-radius: 5px;
-  border: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  background-color: white;
-}
-.tiraResultadoVisor{
-  font-size: 0;
-}
-
-.calculadora-wrapper{
-  padding: 5px;
-  border-radius: 10px;
-  border: 2px solid black;
-  width: 350px;
-  height: 362px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 140px;
-  background-color: rgb(199, 199, 199);
-}
-
-.calculadora button{
+  font-size: 25px;
   cursor: pointer;
-  border-radius: 4px;
-  border: 1px solid black;
-  margin-top: 10px;
-  width: 80px;
-  height: 60px;
-  font-size: 20px;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: white;
+  margin: 3px;
+}
+.botao:hover{
+  background-color: black;
 }
 
-.calculadora button:hover{
-  background-color: rgb(212, 211, 211);
+.resultado{
+  width: 223px;
+  background-color: white;
+  height: 30px;
+  margin: 5px;
+  font-size: 20px;
+  color: black;
+  text-align: right;
+  padding: 5px;
 }
